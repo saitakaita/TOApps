@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7669D5D11750AE6E0097CF54 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7669D5C81750AE6E0097CF54 /* FMDatabase.m */; };
+		7669D5D21750AE6E0097CF54 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7669D5CA1750AE6E0097CF54 /* FMDatabaseAdditions.m */; };
+		7669D5D31750AE6E0097CF54 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7669D5CC1750AE6E0097CF54 /* FMDatabasePool.m */; };
+		7669D5D41750AE6E0097CF54 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7669D5CE1750AE6E0097CF54 /* FMDatabaseQueue.m */; };
+		7669D5D51750AE6E0097CF54 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7669D5D01750AE6E0097CF54 /* FMResultSet.m */; };
+		7669D5DC1750B1220097CF54 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7669D5DB1750B1220097CF54 /* WebViewController.m */; };
+		7669D5DF1750B1860097CF54 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 7669D5DE1750B1860097CF54 /* Util.m */; };
+		7669D5E21750B28C0097CF54 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7669D5E11750B28C0097CF54 /* SearchViewController.m */; };
+		7669D5E41750B51F0097CF54 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7669D5E31750B51F0097CF54 /* libsqlite3.0.dylib */; };
 		7693B75217489D9D0039F65F /* SampleBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7693B75117489D9D0039F65F /* SampleBaseController.m */; };
 		7693B75517489E740039F65F /* SampleForSubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 7693B75417489E740039F65F /* SampleForSubviews.m */; };
 		7693B7581748A9F90039F65F /* SampleForWebview.m in Sources */ = {isa = PBXBuildFile; fileRef = 7693B7571748A9F90039F65F /* SampleForWebview.m */; };
@@ -24,6 +33,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7669D5C71750AE6E0097CF54 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		7669D5C81750AE6E0097CF54 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		7669D5C91750AE6E0097CF54 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		7669D5CA1750AE6E0097CF54 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		7669D5CB1750AE6E0097CF54 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		7669D5CC1750AE6E0097CF54 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		7669D5CD1750AE6E0097CF54 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		7669D5CE1750AE6E0097CF54 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		7669D5CF1750AE6E0097CF54 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		7669D5D01750AE6E0097CF54 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		7669D5DA1750B1220097CF54 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = Search/WebViewController.h; sourceTree = "<group>"; };
+		7669D5DB1750B1220097CF54 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = Search/WebViewController.m; sourceTree = "<group>"; };
+		7669D5DD1750B1860097CF54 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Util.h; path = Search/Util.h; sourceTree = "<group>"; };
+		7669D5DE1750B1860097CF54 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Util.m; path = Search/Util.m; sourceTree = "<group>"; };
+		7669D5E01750B28C0097CF54 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = Search/SearchViewController.h; sourceTree = "<group>"; };
+		7669D5E11750B28C0097CF54 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = Search/SearchViewController.m; sourceTree = "<group>"; };
+		7669D5E31750B51F0097CF54 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		7693B75017489D9D0039F65F /* SampleBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SampleBaseController.h; path = Class/SampleBaseController.h; sourceTree = "<group>"; };
 		7693B75117489D9D0039F65F /* SampleBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SampleBaseController.m; path = Class/SampleBaseController.m; sourceTree = "<group>"; };
 		7693B75317489E740039F65F /* SampleForSubviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleForSubviews.h; sourceTree = "<group>"; };
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7669D5E41750B51F0097CF54 /* libsqlite3.0.dylib in Frameworks */,
 				76F48C7E1748948D00844CCD /* UIKit.framework in Frameworks */,
 				76F48C801748948D00844CCD /* Foundation.framework in Frameworks */,
 				76F48C821748948D00844CCD /* CoreGraphics.framework in Frameworks */,
@@ -63,6 +90,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7669D5C61750AE4C0097CF54 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				7669D5C71750AE6E0097CF54 /* FMDatabase.h */,
+				7669D5C81750AE6E0097CF54 /* FMDatabase.m */,
+				7669D5C91750AE6E0097CF54 /* FMDatabaseAdditions.h */,
+				7669D5CA1750AE6E0097CF54 /* FMDatabaseAdditions.m */,
+				7669D5CB1750AE6E0097CF54 /* FMDatabasePool.h */,
+				7669D5CC1750AE6E0097CF54 /* FMDatabasePool.m */,
+				7669D5CD1750AE6E0097CF54 /* FMDatabaseQueue.h */,
+				7669D5CE1750AE6E0097CF54 /* FMDatabaseQueue.m */,
+				7669D5CF1750AE6E0097CF54 /* FMResultSet.h */,
+				7669D5D01750AE6E0097CF54 /* FMResultSet.m */,
+			);
+			name = FMDB;
+			path = TOApps/FMDB;
+			sourceTree = "<group>";
+		};
+		7669D5D61750AFB60097CF54 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				7669D5DA1750B1220097CF54 /* WebViewController.h */,
+				7669D5DB1750B1220097CF54 /* WebViewController.m */,
+				7669D5DD1750B1860097CF54 /* Util.h */,
+				7669D5DE1750B1860097CF54 /* Util.m */,
+				7669D5E01750B28C0097CF54 /* SearchViewController.h */,
+				7669D5E11750B28C0097CF54 /* SearchViewController.m */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
 		7693B74F17489CA40039F65F /* Class */ = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +137,8 @@
 		76F48C711748948D00844CCD = {
 			isa = PBXGroup;
 			children = (
+				7669D5E31750B51F0097CF54 /* libsqlite3.0.dylib */,
+				7669D5C61750AE4C0097CF54 /* FMDB */,
 				76F48C831748948D00844CCD /* TOApps */,
 				76F48C7C1748948D00844CCD /* Frameworks */,
 				76F48C7B1748948D00844CCD /* Products */,
@@ -106,6 +166,7 @@
 		76F48C831748948D00844CCD /* TOApps */ = {
 			isa = PBXGroup;
 			children = (
+				7669D5D61750AFB60097CF54 /* Search */,
 				7693B75017489D9D0039F65F /* SampleBaseController.h */,
 				7693B75117489D9D0039F65F /* SampleBaseController.m */,
 				7693B74F17489CA40039F65F /* Class */,
@@ -204,6 +265,14 @@
 				7693B75517489E740039F65F /* SampleForSubviews.m in Sources */,
 				7693B7581748A9F90039F65F /* SampleForWebview.m in Sources */,
 				7693B75B1748D5180039F65F /* SampleForLoadHTMLString.m in Sources */,
+				7669D5D11750AE6E0097CF54 /* FMDatabase.m in Sources */,
+				7669D5D21750AE6E0097CF54 /* FMDatabaseAdditions.m in Sources */,
+				7669D5D31750AE6E0097CF54 /* FMDatabasePool.m in Sources */,
+				7669D5D41750AE6E0097CF54 /* FMDatabaseQueue.m in Sources */,
+				7669D5D51750AE6E0097CF54 /* FMResultSet.m in Sources */,
+				7669D5DC1750B1220097CF54 /* WebViewController.m in Sources */,
+				7669D5DF1750B1860097CF54 /* Util.m in Sources */,
+				7669D5E21750B28C0097CF54 /* SearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

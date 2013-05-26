@@ -30,7 +30,7 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  self.view.backgroundColor = [UIColor blackColor];
+  self.view.backgroundColor = [UIColor redColor];
   
   // 1-1ボタンを追加
   UIButton* button11 = [UIButton buttonWithType:UIButtonTypeRoundedRect];

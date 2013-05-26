@@ -23,6 +23,8 @@
   self.lists = [NSArray arrayWithObjects:
                 @"SampleForSubviews",
                 @"SampleForWebview",
+                @"WebViewController",
+                @"SearchViewController",
                 nil];
 }
 
