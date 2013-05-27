@@ -49,7 +49,7 @@
   [tf addTarget:self action:@selector(hoge:) forControlEvents:UIControlEventEditingDidEndOnExit];
   [self.view addSubview:tf];
   
-  _tableView = [[[UITableView alloc] initWithFrame:CGRectMake(0, 100, 300, 365) style:UITableViewStyleGrouped] autorelease];
+  _tableView = [[[UITableView alloc] initWithFrame:CGRectMake(0, 100, 320, 365) style:UITableViewStyleGrouped] autorelease];
 //  _tableView.center = CGPointMake(self.view.bounds.size.width /2, 100);
   _tableView.dataSource = self;
   _tableView.delegate = self;
@@ -81,7 +81,7 @@
 }
 
 //セクションタイトル
-- (NSString *)tableView:(UITableView *)tableView titleForFooterInSection:(NSInteger)section {
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
   for (int i=0; i < [dateSection count]; i++) {
     if (section == i) {
       NSString *str = [[NSString alloc] initWithFormat:@"%@ 検索履歴",[dateSection objectAtIndex:i]];
@@ -139,7 +139,7 @@
   return cell;
 }
 
-- (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
   wArray = [[[NSMutableArray alloc] init] autorelease];
   NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
   NSString *dir  = [paths objectAtIndex:0];
