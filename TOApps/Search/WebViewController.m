@@ -44,7 +44,7 @@
   UIToolbar *tb = [[UIToolbar alloc] initWithFrame:CGRectMake(0, self.view.bounds.size.height -44 , 320, 44)];
   [self.view addSubview:tb];
   _reloadButton = [[UIBarButtonItem alloc] initWithTitle:@"reload" style:UIBarButtonItemStyleBordered target:self action:@selector(reloadDidPush)];
-  _backButton = [[UIBarButtonItem alloc] initWithTitle:@"back" style:UIBarButtonItemStyleBordered target:self action:@selector(backDidPush:)];
+  _backButton = [[UIBarButtonItem alloc] initWithTitle:@"back" style:UIBarButtonItemStyleBordered target:self action:@selector(backDidPush)];
   _fowardButton = [[UIBarButtonItem alloc] initWithTitle:@"foward" style:UIBarButtonItemStyleBordered target:self action:@selector(fowardDidPush)];
   _homeButton = [[UIBarButtonItem alloc] initWithTitle:@"home" style:UIBarButtonItemStyleBordered target:self action:@selector(toHome:)];
 
@@ -52,7 +52,7 @@
 //  _activityIndicator.frame = CGRectMake(100, 100, 20, 20);
   
 //  UIBarButtonItem *indicator = [[[UIBarButtonItem alloc] initWithCustomView:_activityIndicator] autorelease];
-  NSArray *buttons = [NSArray arrayWithObjects:_backButton, _fowardButton, _homeButton, nil];
+  NSArray *buttons = [NSArray arrayWithObjects:_backButton, _fowardButton, _reloadButton, _homeButton, nil];
   tb.items = buttons;
   
   NSString *urlStr = [[[NSString alloc] initWithFormat:@"http://www.google.co.jp/search?q=%@", encode_word] autorelease];
@@ -86,8 +86,8 @@
   [_wv goBack];
 }
 
-- (void)forwardDidPush {
-  [_wv goBack];
+- (void)fowardDidPush {
+  [_wv goForward];
 }
 
 

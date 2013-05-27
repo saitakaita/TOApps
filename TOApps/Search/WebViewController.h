@@ -23,6 +23,6 @@
 - (void)toHome:(id)sender;
 - (void)reloadDidPush;
 - (void)backDidPush;
-- (void)forwardDidPush;
+- (void)fowardDidPush;
 
 @end
