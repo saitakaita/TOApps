@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7600CF8B175B756E008F8DEE /* FDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7600CF8A175B756E008F8DEE /* FDRootViewController.m */; };
 		7669D5D11750AE6E0097CF54 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7669D5C81750AE6E0097CF54 /* FMDatabase.m */; };
 		7669D5D21750AE6E0097CF54 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7669D5CA1750AE6E0097CF54 /* FMDatabaseAdditions.m */; };
 		7669D5D31750AE6E0097CF54 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7669D5CC1750AE6E0097CF54 /* FMDatabasePool.m */; };
@@ -33,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7600CF89175B756E008F8DEE /* FDRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDRootViewController.h; sourceTree = "<group>"; };
+		7600CF8A175B756E008F8DEE /* FDRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDRootViewController.m; sourceTree = "<group>"; };
 		7669D5C71750AE6E0097CF54 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 		7669D5C81750AE6E0097CF54 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
 		7669D5C91750AE6E0097CF54 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
@@ -90,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7600CF85175B6DCD008F8DEE /* FileDownload */ = {
+			isa = PBXGroup;
+			children = (
+				7600CF89175B756E008F8DEE /* FDRootViewController.h */,
+				7600CF8A175B756E008F8DEE /* FDRootViewController.m */,
+			);
+			path = FileDownload;
+			sourceTree = "<group>";
+		};
 		7669D5C61750AE4C0097CF54 /* FMDB */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +178,7 @@
 		76F48C831748948D00844CCD /* TOApps */ = {
 			isa = PBXGroup;
 			children = (
+				7600CF85175B6DCD008F8DEE /* FileDownload */,
 				7669D5D61750AFB60097CF54 /* Search */,
 				7693B75017489D9D0039F65F /* SampleBaseController.h */,
 				7693B75117489D9D0039F65F /* SampleBaseController.m */,
@@ -273,6 +286,7 @@
 				7669D5DC1750B1220097CF54 /* WebViewController.m in Sources */,
 				7669D5DF1750B1860097CF54 /* Util.m in Sources */,
 				7669D5E21750B28C0097CF54 /* SearchViewController.m in Sources */,
+				7600CF8B175B756E008F8DEE /* FDRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

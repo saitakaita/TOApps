@@ -25,6 +25,7 @@
                 @"SampleForWebview",
                 @"WebViewController",
                 @"SearchViewController",
+                @"FDRootViewController",
                 nil];
 }
 
